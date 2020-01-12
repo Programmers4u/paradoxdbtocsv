@@ -1,0 +1,5 @@
+/vendor/
+.vscode
+.DS_Store
+.env
+composer.lock
