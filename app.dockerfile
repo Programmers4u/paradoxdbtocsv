@@ -1,4 +1,4 @@
-FROM php:7.1.0-fpm
+FROM php:5.6-fpm
 
 RUN apt-get update && apt-get install -y libmcrypt-dev \
     mysql-client libmagickwand-dev --no-install-recommends \
@@ -21,3 +21,6 @@ RUN /tmp/scripts/ext-gd.sh
 #Install git
 RUN apt-get update \
     && apt-get install -y git
+
+#Install paradox db
+#RUN pecl install paradox
