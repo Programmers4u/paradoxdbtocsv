@@ -1,5 +1,5 @@
 {
-    "name": "programmers4u/paradoxdb_tocsv",
+    "name": "programmers4u/paradoxdbtocsv",
     "description": "The package allows you transform paradox table to csv file.",
     "license" : "MIT",
     "authors": [
